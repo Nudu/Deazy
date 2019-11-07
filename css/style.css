@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+.form-container {
+    /* justify-content: center;
+    flex-direction: column;
+    display: flex; */
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
+
+@media (min-width: 760px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 1060px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+.hide {
+    display: none;
+}

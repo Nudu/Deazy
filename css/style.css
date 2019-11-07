@@ -7,14 +7,25 @@ h1 {
     text-align: center;
 }
 
-input{
+input {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
+
+.logo{
+    margin: 0 auto;
+    display: flex;
+    height: 25vh;
+}
+
 .form-container {
-    /* justify-content: center;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    display: flex; */
+    display: flex;
     text-align: center;
 }
 
